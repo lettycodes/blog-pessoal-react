@@ -49,6 +49,14 @@ return (
                 <Typography variant="body2" component="p">
                     {post.texto}
                 </Typography>
+
+                <Typography variant="body2" component="p">
+                    {/* Mostrar apenas data:  */}
+                    {new Date(Date.parse(post.data)).toLocaleDateString()} <br />
+                    {/* Mostar data e hora: {new Date(Date.parse(post.data)).toLocaleString()} <br /> */}
+                    {/* Mostrar apenas hora: {new Date(Date.parse(postagem.data)).toLocaleTimeString()} */}
+            </Typography>
+
                 <Typography variant="body2" component="p">
                     {post.tema?.descricao}
                 </Typography>

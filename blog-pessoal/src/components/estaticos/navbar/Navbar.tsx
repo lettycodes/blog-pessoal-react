@@ -1,5 +1,5 @@
 import React from 'react';
-import { AppBar, Toolbar, Typography } from '@material-ui/core';
+import { AppBar, Grid, Toolbar, Typography } from '@material-ui/core';
 import { useNavigate } from 'react-router-dom';
 import './Navbar.css'
 import { Link } from 'react-router-dom';
@@ -38,6 +38,7 @@ function Navbar() {
         navbarComponent = 
             <AppBar position="static">
                     <Toolbar variant="dense">
+                    <Grid container justifyContent="space-between" >
                         <Box className='cursor'>
                             <Typography variant="h5" color="inherit">
                                 Blog Pessoal
@@ -78,7 +79,7 @@ function Navbar() {
                                     </Typography>
                                 </Box>                        
                         </Box>
-
+                    </Grid>
                     </Toolbar>
             </AppBar>
     }

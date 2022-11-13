@@ -36,45 +36,45 @@ function Navbar() {
 
     if(token != "" ) {
         navbarComponent = 
-            <AppBar position="static">
+            <AppBar position="static" className='navbar'>
                     <Toolbar variant="dense">
                     <Grid container justifyContent="space-between" >
                         <Box className='cursor'>
-                            <Typography variant="h5" color="inherit">
-                                Blog Pessoal
+                            <Typography variant="h5" color="inherit" className='navbar-textos'>
+                                Blog da Lelê
                             </Typography>
                         </Box>
                         <Box display="flex" justifyContent="start">
                             <Link to="/home" className='text-decorator-none'>
                                 <Box mx={1} className='cursor'>
-                                    <Typography variant="h6" color="inherit">
+                                    <Typography variant="h6" color="inherit" className='navbar-textos'>
                                         home
                                     </Typography>
                                 </Box>
                             </Link>
                             <Link to="/posts" className='text-decorator-none'>
                                 <Box mx={1} className='cursor'>
-                                    <Typography variant="h6" color="inherit">
+                                    <Typography variant="h6" color="inherit" className='navbar-textos'>
                                         postagens
                                     </Typography>
                                 </Box>
                             </Link>
                             <Link to="/temas" className='text-decorator-none'>
                                 <Box mx={1} className='cursor'>
-                                    <Typography variant="h6" color="inherit">
+                                    <Typography variant="h6" color="inherit" className='navbar-textos'>
                                         temas
                                     </Typography>
                                 </Box>
                             </Link>
                             <Link to="/formularioTema" className='text-decorator-none'>
                                 <Box mx={1} className='cursor'>
-                                    <Typography variant="h6" color="inherit">
+                                    <Typography variant="h6" color="inherit" className='navbar-textos'>
                                         cadastrar tema
                                     </Typography>
                                 </Box>
                             </Link>                        
                                 <Box mx={1} className='cursor' onClick={goLogout}>
-                                    <Typography variant="h6" color="inherit">
+                                    <Typography variant="h6" color="inherit" className='navbar-textos'>
                                         logout
                                     </Typography>
                                 </Box>                        

@@ -19,8 +19,8 @@ function Footer() {
     if(token != "") {
         footerComponent =
             <Grid container direction="row" justifyContent="center" alignItems="center">
-                    <Grid alignItems="center" item xs={12}>
-                        <Box className='box1'>
+                    <Grid alignItems="center" item xs={12} className='footer'>
+                        <Box className='footer-social'>
                             <Box paddingTop={1} display="flex" alignItems="center" justifyContent="center">
                                 <Typography variant="h5" align="center" gutterBottom className='textos'>Me siga nas redes sociais </Typography>
                             </Box>
@@ -36,12 +36,12 @@ function Footer() {
                                 </a>
                             </Box>
                         </Box>
-                        <Box className='box2'>
+                        <Box className='footer-copyright'>
                             <Box paddingTop={1}>
                                 <Typography variant="subtitle2" align="center" gutterBottom className='textos'>© 2022 Copyright:</Typography>
                             </Box>
                             <Box>
-                                <a target="_blank" href="https://brasil.generation.org">
+                                <a target="_blank" href="https://brasil.generation.org" className='generation'>
                                     <Typography variant="subtitle2" gutterBottom className='textos' align="center">brasil.generation.org</Typography>
                                 </a>
                             </Box>

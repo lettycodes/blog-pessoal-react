@@ -3,7 +3,7 @@
 }
 
 .imagem {
-    background-image: url(https://i.imgur.com/7hKvt2T.jpg);
+    background-image: url(https://i.imgur.com/PtmDrAT.png);
     background-repeat: no-repeat;
     width: 100vh; 
     min-height: 100vh; 
@@ -14,4 +14,9 @@
 
 .text-decorator-none {
     text-decoration: none;
+}
+
+.botao-logar {
+    background-color: #9d4edd !important;
+    color: white !important;
 }

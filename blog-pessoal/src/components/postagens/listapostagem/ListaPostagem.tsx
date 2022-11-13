@@ -79,7 +79,7 @@ return (
                 <Box display="flex" justifyContent="center" mb={1.5}>
                 <Link to={`/formularioPostagem/${post.id}`} className="text-decorator-none" >
                     <Box mx={1}>
-                    <Button variant="contained" className="marginLeft" size='small' color="primary" >
+                    <Button variant="contained" size='small' color="primary" className="botao-atualizar">
                         atualizar
                     </Button>
                     </Box>

@@ -16,10 +16,10 @@ function TabPostagem() {
     return (
         <>
             <TabContext value={value}>
-                <AppBar position="static">
+                <AppBar position="static" className='tab'>
                     <Tabs centered indicatorColor="secondary" onChange={handleChange}>
                         <Tab label="Todas as postagens" value="1"/>
-                        <Tab label="Sobre nós" value="2" />
+                        <Tab label="Sobre mim" value="2" />
                     </Tabs>
                 </AppBar>
 
@@ -30,8 +30,8 @@ function TabPostagem() {
                 </TabPanel>
 
                 <TabPanel value="2">
-                    <Typography variant="h5" gutterBottom color="textPrimary" component="h5" align="center" className="titulo-sobre">Sobre nós</Typography>
-                    <Typography variant="body1" gutterBottom color="textPrimary" align="justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos ut eveniet natus totam et, voluptate dicta tempore alias, odio nobis non eius cupiditate minima inventore pariatur! Ipsum itaque consectetur voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo velit consequuntur suscipit fugiat, nam quis quod quaerat veritatis et, vel ratione beatae, facere neque! Quo animi porro voluptate saepe deleniti? Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore adipisci, officia aut quidem dolorum deserunt iure dolorem doloribus velit nobis quas consequatur at ullam odit, nesciunt est nulla nihil excepturi!</Typography>
+                    <Typography variant="h5" gutterBottom color="textPrimary" component="h5" align="center" className="titulo-sobre">Sobre mim</Typography>
+                    <Typography variant="body1" gutterBottom color="textPrimary" align="justify">Nunca sei o que falar quando o assunto é falar sobre mim... Mas vamos lá! Sou a Letícia, tenho 28 anos e atualmente estou terminando o bootcamp de Java Full-Stack da Generation Brasil. Espero em breve conseguir meu emprego na área da programação. 🤗 Ah, agora em que estou escrevendo esse texto, é um domingo (dia 13/11/2022) e estou escutando 🎵 Imagine Dragons - Bad Liar 🎵 nesse exato momento! Uma curiosidade sobre mim: amo fazer as coisas ouvindo música, principalmente quando o assunto é programar. 💜</Typography>
                 </TabPanel>
             </TabContext>
         </>

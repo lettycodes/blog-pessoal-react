@@ -28,9 +28,6 @@ function Footer() {
                                 <a href="https://www.github.com/lettycodes/" target="_blank">
                                     <GitHub className='redes'/>
                                 </a>
-                                <a href="https://www.instagram.com/lehpaixao/" target="_blank">
-                                    <InstagramIcon className='redes'/>
-                                </a>
                                 <a href="https://www.linkedin.com/in/silva-leticia/" target="_blank">
                                     <LinkedInIcon className='redes'/>
                                 </a>

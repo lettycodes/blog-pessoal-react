@@ -49,10 +49,11 @@ function ListaPostagem() {
 
 return (
     <>
+    <div className='containerLista'>
     {
         posts.map(post => (
-        <Box m={2} >
-            <Card variant="outlined">
+        <Box alignSelf='flex-start'>
+            <Card variant="outlined" className='postagens'>
             <CardContent>
                 <Typography color="textSecondary" gutterBottom>
                     Postagens
@@ -97,6 +98,7 @@ return (
     </Box>
         ))
     }
+    </div>
     </>
     )
 }

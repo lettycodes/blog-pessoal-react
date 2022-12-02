@@ -1,5 +1,22 @@
+.postagens {
+    width: 25vw !important; 
+    min-height: 232px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.containerLista {
+    justify-content: center !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 2rem !important;
+    padding: 1rem !important;
+    width: 96% !important;
+    margin: 0 auto !important;
+}
+
 .text-decorator-none{
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 .botao-atualizar {
